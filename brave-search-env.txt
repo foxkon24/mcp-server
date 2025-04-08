@@ -1,0 +1,11 @@
+# Brave Search MCPサーバーの設定
+MCP_HOST=localhost
+MCP_PORT=8001
+MCP_LOG_LEVEL=info
+
+# セキュリティ設定（オプション）
+MCP_API_KEY=your_secret_api_key_here  # このAPIキーをクライアントに要求する場合
+
+# Brave Search API設定
+BRAVE_API_KEY=your_brave_search_api_key_here  # Brave Search APIキー（必須）
+BRAVE_SEARCH_API_URL=https://api.search.brave.com/res/v1/web/search

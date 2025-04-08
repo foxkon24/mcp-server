@@ -1,0 +1,11 @@
+# ファイルシステムMCPサーバーの設定
+MCP_HOST=localhost
+MCP_PORT=8000
+MCP_LOG_LEVEL=info
+
+# セキュリティ設定（オプション）
+MCP_API_KEY=your_secret_api_key_here  # このAPIキーをクライアントに要求する場合
+MCP_BASE_PATH=/path/to/allowed/directory  # アクセス可能なディレクトリを制限する場合
+
+# macOSの例: MCP_BASE_PATH=/Users/username/documents
+# Windowsの例: MCP_BASE_PATH=C:\\Users\\username\\Documents
